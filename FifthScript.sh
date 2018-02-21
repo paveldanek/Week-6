@@ -34,7 +34,7 @@ echo "ON test1.target. WE'LL ACTIVATE test2.target AND VERIFY THEY ARE BOTH ACTI
 touch test1.target
 touch test2.target
 echo "[Unit]" >> test1.target
-echo "Description=test 1" >> test1.terget
+echo "Description=test 1" >> test1.target
 echo "[Unit]" >> test2.target
 echo "Description=test 2" >> test2.target
 echo "Wants=test1.target" >> test2.target
